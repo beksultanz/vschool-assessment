@@ -1,0 +1,57 @@
+/* This is main container that has max-width 1000px and height 590px; Setting margin: 0 auto makes this container centered in the browser */
+
+.container {
+	max-width: 800px;
+	min-height: 590px;
+	margin: 0 auto;
+	padding: 5px;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+		url("background.jpg");
+}
+
+/* */
+.intro-box,
+.button-box {
+	width: 400px;
+	margin: 0 auto;
+}
+
+.intro-box {
+	min-height: 500px;
+}
+
+.intro-box__h1 {
+	color: #fff;
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: center;
+	text-transform: capitalize;
+}
+
+.button {
+	display: block;
+	margin: 10px auto;
+	font-weight: 300;
+	background-color: #db8d17ef;
+	border: none;
+	padding: 10px 30px;
+	color: #fff;
+	outline: none;
+	font-size: 16px;
+	cursor: pointer;
+	border-radius: 200px;
+}
+
+.genius {
+	display: block;
+	width: 150px;
+	height: auto;
+	margin: 0 auto;
+}
+
+/* JavaScript created class */
+
+.about-me {
+	color: #fff;
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+}
